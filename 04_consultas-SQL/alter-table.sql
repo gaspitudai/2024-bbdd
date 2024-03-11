@@ -1,0 +1,7 @@
+--. renombrar tabla
+ALTER TABLE DIRECCION
+RENAME TO DIRECCION_OLD;
+
+-- setear PK
+ALTER TABLE VOLUNTARIO
+ADD PRIMARY KEY (nro_voluntario);
